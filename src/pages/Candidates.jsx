@@ -179,10 +179,6 @@ function Candidates() {
     []
   );
 
-  console.log(sorting);
-  console.log(globalFilter);
-  console.log(columnFilters);
-
   const table = useMaterialReactTable({
     columns,
     data: tabledata,
